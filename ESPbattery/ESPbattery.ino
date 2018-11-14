@@ -2,8 +2,8 @@
 //Last revision 11/11/2018
 //Published under MIT License
 
-int R1 = 33000;  //fixed ohms
-int R2 = 7500; //fixed ohms
+int R1 = 220000;  //fixed ohms
+int R2 = 56000; //fixed ohms
 float knownVolts = 0.775; //the higher the voltage, higher Vbatt output
 int knownRaw = 818;	//known raw ADC value at knownVolts
 float Vbatt = 0;	//output variable
